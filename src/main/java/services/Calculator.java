@@ -13,6 +13,6 @@ public class Calculator {
     @GET
     @Path("add")
     public String add(@QueryParam("a")int a, @QueryParam("b")int b){
-        return String.valueOf(a + b + 3);
+        return String.valueOf(a + b);
     }
 }
